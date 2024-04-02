@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+a {
+  display: block;
+}
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 10px;
+}
+.purple_800_03_purple_200_01_border {
+  border-image: radial-gradient(90deg, #6119ab, #bf97bf) 1;
+}
+.black_900_1a_01_purple_A200_00_border {
+  border-image: linear-gradient(120deg, #0000001a, #9536f433, #9f26ff, #b132ff00) 1;
+}
+table {
+  table-layout: fixed;
+}
+.alice-carousel__dots-item {
+  cursor: pointer;
+}
